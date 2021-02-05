@@ -1,0 +1,33 @@
+/* POST GENERAL */
+.Post {
+    max-width: 35%;
+    margin-bottom: 45px;
+    border: 1px solid lightgrey;
+    background: #fff;
+}
+
+/* POST HEADER */
+.post__header {
+    display: flex; 
+    align-items: center;
+    padding: 15px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+/* POST MAIN */
+.post__image {
+    max-width: 100%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    object-fit: contain;
+}
+
+/* POST FOOTER */
+.post__text {
+    padding: 15px;
+    font-weight: normal;
+}
+
