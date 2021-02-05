@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 
 import './Post.css'
@@ -18,7 +18,7 @@ const Post = ({ username, caption, imageUrl }) => {
             <div className="post__main">
                 <img 
                     className="post__image" 
-                    src="https://res.cloudinary.com/practicaldev/image/fetch/s--wCGgterD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png" 
+                    src={imageUrl}
                     alt=""
                 />
             </div>
