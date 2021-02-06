@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import Header from './Components/Header/Header';
 import Post from './Components/Main/Post/Post';
+import Modale from './Components/Modal/Modale';
 
 import './App.css';
 
 const App = () => {
   // POSTS CONTENT
-  const[posts, setPosts] = useState([
+  const [posts, setPosts] = useState([
     {
       username: "Matteo Rascioni",
     caption: "Hello World!",
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Modale />
       <Header />
 
       {
