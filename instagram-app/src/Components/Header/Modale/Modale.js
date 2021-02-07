@@ -45,36 +45,36 @@ const Modale = () => {
           <center>
             <img 
               className="modale__image" 
-              src="https://cdn.worldvectorlogo.com/logos/instagram-1.svg" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" 
               alt=""
             />
           </center>
           <form className="modale__form">
             <Input
-                className="form__child"
-                placeholder="username"
-                type="text"
-                value={ username }
-                onChange={(e) => setUsername(e.target.value)}
-              />   
-              <Input
-                className="form__child"
-                placeholder="email"
-                type="email"
-                value={ email }
-                onChange={(e) => setEmail(e.target.value)}
-              />    
-              <Input
-                className="form__child"
-                placeholder="password"
-                type="password"
-                value={ password }
-                onChange={(e) => setPassword(e.target.value)}
-              />
+              className="form__child"
+              placeholder="username"
+              type="text"
+              value={ username }
+              onChange={(e) => setUsername(e.target.value)}
+            />   
+            <Input
+              className="form__child"
+              placeholder="email"
+              type="email"
+              value={ email }
+              onChange={(e) => setEmail(e.target.value)}
+            />    
+            <Input
+              className="form__child"
+              placeholder="password"
+              type="password"
+              value={ password }
+              onChange={(e) => setPassword(e.target.value)}
+            />
 
-              <Button type="submit">  
-                Sign Up
-              </Button>
+            <Button type="submit">  
+              Sign Up
+            </Button>
           </form> 
         </div>
       </Modal>

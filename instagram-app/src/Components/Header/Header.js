@@ -1,15 +1,15 @@
 import React from 'react';
-import Modale from '../Modal/Modale';
+import Modale from './Modale/Modale';
 
 import './Header.css'
 
 const Header = () => {
     
     return(
-        <div className="Header">
+        <div className="header">
               <img 
               className="header__image" 
-              src="https://cdn.worldvectorlogo.com/logos/instagram-1.svg" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" 
               alt=""
             />
             <Modale />

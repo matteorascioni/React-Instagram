@@ -1,5 +1,5 @@
 /* POST GENERAL */
-.Post {
+.post {
     max-width: 98%;
     margin-bottom: 45px;
     border: 1px solid lightgrey;
@@ -34,7 +34,7 @@
 
 /* DESKTOP VERSION */
 @media screen and (min-width: 1000px) {
-    .Post {
-        max-width: 50%;
+    .post {
+        max-width: 55%;
     }
 }   

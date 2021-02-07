@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; 
 import Post from './Post/Post';
+import IgContent from './IgContent/IgContent';
 
 import './Main.css';
 
@@ -24,12 +25,17 @@ const Main = () => {
     ]);
 
     return (
-        <div className="Main">
+        <div className="main">
+
+            {/* POSTS */}
             {
                 posts.map(post => (
                     <Post username={post.username} caption={post.caption} imageUrl={post.imageUrl} />
                 ))
             }
+
+            {/* IG CONTENT */}
+            <IgContent />
         </div>
     )
 }
