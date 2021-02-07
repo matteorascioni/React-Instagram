@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
-import Button from '@material-ui/core/Button';
+import { Button, Input } from '@material-ui/core/';
+
+import './Modale.css'
 
 function getModalStyle() {
   const top = 50;
@@ -26,27 +28,62 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Modale = () => {
-    const classes = useStyles();
-    const [modalStyle] = useState(getModalStyle); 
-    const [open, setOpen] = useState(false);
+  const classes = useStyles();
+  const [modalStyle] = useState(getModalStyle); 
+  const [open, setOpen] = useState(false);
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
-    return (
-        <div className="modal"> 
-          <Modal
-              open={ open } 
-              onClose={ () => setOpen(false) }
-          >
-              <div style={ modalStyle } className={ classes.paper }>
-                  <h2>I am a Modal</h2>
-              </div>
-          </Modal>
+  return (
+    <div className="modal"> 
+      <Modal
+          open={ open } 
+          onClose={ () => setOpen(false) }
+      >
+        <div style={ modalStyle } className={ classes.paper }>
+          <center>
+            <img 
+              className="modale__image" 
+              src="https://cdn.worldvectorlogo.com/logos/instagram-1.svg" 
+              alt=""
+            />
+          </center>
+          <form className="modale__form">
+            <Input
+                className="form__child"
+                placeholder="username"
+                type="text"
+                value={ username }
+                onChange={(e) => setUsername(e.target.value)}
+              />   
+              <Input
+                className="form__child"
+                placeholder="email"
+                type="email"
+                value={ email }
+                onChange={(e) => setEmail(e.target.value)}
+              />    
+              <Input
+                className="form__child"
+                placeholder="password"
+                type="password"
+                value={ password }
+                onChange={(e) => setPassword(e.target.value)}
+              />
 
-          <Button onClick={ () => setOpen(true) }>  
-            Open Modal
-          </Button>
-
-        </div>  
-    )
+              <Button type="submit">  
+                Sign Up
+              </Button>
+          </form> 
+        </div>
+      </Modal>
+    
+      <Button onClick={ () => setOpen(true) }>  
+        Sign Up
+      </Button>
+    </div>  
+  )
 }
 
 export default Modale;

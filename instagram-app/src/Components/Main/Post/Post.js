@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 
 import './Post.css'
@@ -30,4 +30,4 @@ const Post = ({ username, caption, imageUrl }) => {
     )
 }
 
-export default Post
+export default Post;

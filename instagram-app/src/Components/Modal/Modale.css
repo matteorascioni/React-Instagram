@@ -1,0 +1,17 @@
+.modale__image {
+    max-width: 40%;
+    max-height: 45px;
+    margin-bottom: 30px;
+}
+
+.modale__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__child {
+    width: 300px;
+    margin-bottom: 30px;
+}
