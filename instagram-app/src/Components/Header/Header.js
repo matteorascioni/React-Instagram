@@ -7,11 +7,18 @@ const Header = () => {
     
     return(
         <div className="header">
-              <img 
-              className="header__image" 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" 
-              alt=""
+            <img 
+            className="header__image" 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" 
+            alt=""
             />
+
+            <input 
+                className="header__input"
+                placeholder="Search"
+                type="text"
+            />
+
             <Modale />
         </div>
     )

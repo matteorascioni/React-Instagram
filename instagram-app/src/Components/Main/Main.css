@@ -4,4 +4,39 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 77px;
 }
+
+.main__right {
+    display: none;
+}
+
+/* 1000PX VERSION */
+@media screen and (min-width: 1000px) {
+    .main {
+        flex-direction: row;
+    }
+
+    .main__left {
+        max-width: 100%;
+    }
+
+    .main__right {
+        display: block;
+        position: fixed;
+        width: 35%;
+        height: 600px;
+        top: 90px;
+        right: 20px;
+        background: #fff;
+        z-index: 10;
+    }
+}
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 1200px) {
+    .main__right {
+        width: 25%;
+        right: 190px;
+    }
+}   

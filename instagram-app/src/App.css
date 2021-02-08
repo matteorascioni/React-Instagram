@@ -14,14 +14,21 @@
 }
 
 /* TABLET VERSION */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
+    .App {
+        width: 100%;
+    }
+}   
+
+/* 1000PX VERSION */
+@media screen and (min-width: 1000px) {
     .App {
         width: 100%;
     }
 }   
 
 /* DESKTOP VERSION */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .App {
         width: 100%;
     }
