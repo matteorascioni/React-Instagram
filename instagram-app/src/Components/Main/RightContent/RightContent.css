@@ -3,11 +3,15 @@
     .rightcontent {
         padding: 20px;
     }
+
+    .rightcontent span {
+        color: #8E8E8E;
+    }
     
     /* RIGHTCONTENT AVATAR */
     .rightcontent__avatar {
-        width: 80px !important;
-        height: 80px !important;
+        width: 70px !important;
+        height: 70px !important;
         margin-bottom: 20px;
     }
 
@@ -15,6 +19,7 @@
     .rightcontent__text {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-bottom: 20px;
     }
 
