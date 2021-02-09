@@ -32,10 +32,10 @@ const Main = () => {
             imageUrl: "https://images.unsplash.com/photo-1585943766731-05822da58574?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         },
         {
-            username: "therealhound",
-            caption: "#fuckoff#lol#newcoverimage#brienneoffuckingtarth",
-            avatar: "https://upload.wikimedia.org/wikipedia/en/5/59/The_Hound_in_%27The_Children%27.jpg",
-            imageUrl: "https://pbs.twimg.com/media/DIV7MgCXkAI9_ag?format=jpg&name=medium",
+            username: "Daenerys Targaryen",
+            caption: "Cute *_* #motherofdragons#liberty#astapor#breakerofchains",
+            avatar: "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/game-of-thrones-emilia-clarke.jpg",
+            imageUrl: "https://i.pinimg.com/originals/2f/7b/8d/2f7b8df905b03c0de3f2853cb5a3b3e2.jpg",
         },
     ]);
 
