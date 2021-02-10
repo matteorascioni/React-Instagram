@@ -38,14 +38,15 @@ const Main = () => {
             imageUrl: "https://i.pinimg.com/originals/2f/7b/8d/2f7b8df905b03c0de3f2853cb5a3b3e2.jpg",
         },
     ]);
-
+ 
     return (
         <div className="main">
             {/* LEFT MAIN */}
             <div className="main__left">
                 {
-                    posts.map(post => (
+                    posts.map((post, index) => (
                         <Post 
+                            key={ index }
                             username={ post.username } 
                             caption={ post.caption } 
                             avatar={ post.avatar } 

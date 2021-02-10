@@ -5,8 +5,8 @@ import { faHeart, faComment, faPaperPlane } from '@fortawesome/free-regular-svg-
 
 import './Post.css'
 
-const Post = ({ username, caption, avatar, imageUrl }) => {
-    
+const Post = ({ username, caption, avatar, imageUrl}) => {
+
     return(
         <div className="post">
             <div className="post__header">
@@ -38,7 +38,7 @@ const Post = ({ username, caption, avatar, imageUrl }) => {
                     </li>
                 </ul>
                 <h4 className="post__text"><strong>{ username }</strong> { caption }</h4>
-            </div>  
+            </div>
         </div>
     )
 }

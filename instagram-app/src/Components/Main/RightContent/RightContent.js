@@ -104,7 +104,7 @@ const RightContent = () => {
                     </li>
                 </ul>
             </div>
-            <span>@2021 INSTAGRAM FROM MATTEO RASCIONI</span>
+            <span>©2021 INSTAGRAM FROM MATTEO RASCIONI</span>
         </div>
     )
 }
